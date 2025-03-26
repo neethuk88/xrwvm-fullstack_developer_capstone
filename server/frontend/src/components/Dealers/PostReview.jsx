@@ -5,7 +5,8 @@ import "../assets/style.css";
 import Header from '../Header/Header';
 
 
-const PostReview = () => {
+
+  const PostReview = () => {
   const [dealer, setDealer] = useState({});
   const [review, setReview] = useState("");
   const [model, setModel] = useState();
